@@ -2,8 +2,8 @@ const express = require('express')
 const app = express()
 
 //rotas
-/*const filmes = require('./routes/filmesRoute')
+const musicas = require('./routes/musicasRoute')
 
-app.use('/filmes', filmes); */
+app.use('/musicas', musicas);
 
 module.exports = app
